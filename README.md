@@ -1,40 +1,37 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌤️ Weather Forecast Web App
 
-## Getting Started
+This **Weather Forecast Web App** provides users with a 7-day weather forecast for any city they search for. Designed to be responsive and user-friendly, the app allows users to quickly access weather information by entering a city name on the homepage.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project was built with **Next.js**, **React**, and **TypeScript**, creating a seamless front-end experience and an efficient back-end for API handling. The app utilizes a weather API to fetch and display real-time data, giving users accurate and up-to-date forecasts.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **7-Day Forecast**: Displays an extended 7-day weather forecast with details on temperature, humidity, and weather conditions.
+- **City-Based Search**: Users can easily search for any city worldwide to view its upcoming weather.
+- **Responsive Design**: Ensures a smooth user experience on both desktop and mobile devices, adapting the layout for readability and accessibility.
+- **Next.js Server-Side Rendering (SSR)**: Uses SSR for optimized loading, improving performance and SEO.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Languages**: TypeScript, JavaScript
+- **Framework**: Next.js
+- **Library**: React
+- **API**: Weather API for live weather data
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project is structured to maintain scalability and organized development:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **pages/**: Contains Next.js pages, including the homepage with a search field and forecast display.
+- **components/**: Holds reusable React components, such as the weather display card and search bar.
+- **styles/**: Includes responsive styling for different devices.
 
-## Deploy on Vercel
+## What I Learned
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Developing this app enhanced my skills in:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# mp-4
->>>>>>> a7e066c55d405972248ca657018275a9880850ea
+- **API Integration in Next.js**: Fetching and rendering data from an external API helped me understand Next.js server-side rendering and client-side data fetching.
+- **TypeScript in React Components**: Using TypeScript improved type safety, making the codebase more reliable and easier to debug.
+- **Responsive Design Principles**: Learned how to create a fully responsive app with smooth transitions across various screen sizes, enhancing user experience.
