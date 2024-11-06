@@ -28,10 +28,3 @@ The project is structured to maintain scalability and organized development:
 - **components/**: Holds reusable React components, such as the weather display card and search bar.
 - **styles/**: Includes responsive styling for different devices.
 
-## What I Learned
-
-Developing this app enhanced my skills in:
-
-- **API Integration in Next.js**: Fetching and rendering data from an external API helped me understand Next.js server-side rendering and client-side data fetching.
-- **TypeScript in React Components**: Using TypeScript improved type safety, making the codebase more reliable and easier to debug.
-- **Responsive Design Principles**: Learned how to create a fully responsive app with smooth transitions across various screen sizes, enhancing user experience.
