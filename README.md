@@ -20,11 +20,5 @@ This project was built with **Next.js**, **React**, and **TypeScript**, creating
 - **Library**: React
 - **API**: Weather API for live weather data
 
-## Project Structure
 
-The project is structured to maintain scalability and organized development:
-
-- **pages/**: Contains Next.js pages, including the homepage with a search field and forecast display.
-- **components/**: Holds reusable React components, such as the weather display card and search bar.
-- **styles/**: Includes responsive styling for different devices.
 
