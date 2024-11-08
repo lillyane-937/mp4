@@ -21,6 +21,7 @@ export async function GET(request: Request): Promise<NextResponse> {
 
     // Check if the fetch request was successful (status 200); otherwise, return a 500 error response
     if (res.status !== 200) {
+        console.log(await res.json())
         return NextResponse.json({ error: "Failed to fetch data" }, { status: 500 });
     }
 
